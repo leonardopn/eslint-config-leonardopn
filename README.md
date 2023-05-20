@@ -16,14 +16,14 @@ This is a ESLint config for my personal projects based on [eslint-config-rockets
 1. Install the dependencies
 
 ```
-npm i -D eslint leonardopdn/eslint-config-leonardopn
+npm i -D eslint eslint-config-leonardopn
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 
 ```
 {
-  "extends": "leonardopdn/eslint-config-leonardopn/react"
+  "extends": "eslint-config-leonardopn/react"
 }
 ```
 
