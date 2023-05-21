@@ -1,3 +1,5 @@
+const prettier = require("./prettier.js");
+
 module.exports = {
     env: {
         browser: true,
@@ -15,7 +17,7 @@ module.exports = {
     },
     plugins: ["react", "jsx-a11y", "@typescript-eslint"],
     rules: {
-        "prettier/prettier": "error",
+        "prettier/prettier": ["error", prettier],
         "react/self-closing-comp": "error",
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
