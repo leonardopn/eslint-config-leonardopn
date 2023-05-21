@@ -65,4 +65,4 @@ module.exports = {
 
 ## License
 
-This ESlint config is licensed by MIT License - [LICENSE](LICENSE) for more details.
+This ESlint config is licensed by MIT License - [LICENSE](LICENSE.md) for more details.
