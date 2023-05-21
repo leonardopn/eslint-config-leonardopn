@@ -15,19 +15,7 @@ module.exports = {
     },
     plugins: ["react", "jsx-a11y", "@typescript-eslint"],
     rules: {
-        "prettier/prettier": [
-            "error",
-            {
-                printWidth: 100,
-                useTabs: true,
-                tabWidth: 4,
-                bracketSameLine: true,
-                singleQuote: false,
-                trailingComma: "es5",
-                arrowParens: "avoid",
-                endOfLine: "lf",
-            },
-        ],
+        "prettier/prettier": "error",
         "react/self-closing-comp": "error",
         "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
